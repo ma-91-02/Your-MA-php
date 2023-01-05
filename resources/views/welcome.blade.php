@@ -100,6 +100,7 @@
         </div></a>
         <ul class="main-nav">
           <li style="color: #fff;"><a href="{{url('/')}}">{{__('messages.home')}}</a></li>
+          <li style="color: #fff;"><a href="{{url('/blog')}}">المدونة</a></li>
           <li style="color: #fff;"><a href="{{url('/#pricing')}}">{{__('messages.pricing')}}</a></li>
           <li style="color: #fff;"><a href="#features">{{__('messages.features')}}</a></li>
           <li>
