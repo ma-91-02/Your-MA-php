@@ -1,16 +1,11 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" >
-@if (app()->getLocale() == 'ar')
-<?php
-$dir = 'style=direction:rtl;';
-$blog= "<li style='color: #fff;'><a href='https://your-ma.com/blog/'>المدونة</a></li>"
-?>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" @if (app()->getLocale() == 'ar')
+dir="rtl"
 @else
-<?php
-$dir='style=direction:ltr;';
-$blog='';
-?>
+dir="ltr"
 @endif
+>
+
+
 
 <head>
   <meta charset="utf-8">
@@ -498,7 +493,14 @@ $blog='';
       </a>
       <ul class="main-nav">
         <li style="color: #fff;"><a href="{{url('/')}}">{{__('messages.home')}}</a></li>
-        {{$blog}}
+
+        @if (app()->getLocale() == 'ar')
+        <li>
+
+          <a style="color: #fff;" href="https://your-ma.com/blog/">المدونة</a>
+        </li>
+        @endif
+
         <li style="color: #fff;"><a href="{{url('/#pricing')}}">{{__('messages.pricing')}}</a></li>
         <li style="color: #fff;"><a href="#features">{{__('messages.features')}}</a></li>
         <li>
@@ -532,12 +534,6 @@ $blog='';
               <li>
                 <a href="{{url('/#gallery')}}"><i class="fas fa-server fa-fw"></i> {{__('messages.gallery')}}</a>
               </li>
-              <!-- <li>
-                  <a href="#video"><i class="far fa-play-circle fa-fw"></i> Top Videos</a>
-                </li> -->
-              <!-- <li>
-                  <a href="#stats"><i class="far fa-chart-bar fa-fw"></i> Stats</a>
-                </li> -->
               <li>
                 <a href="{{url('/#discount')}}"><i class="fas fa-percent fa-fw"></i> {{__('messages.requestDiscount')}}</a>
               </li>
