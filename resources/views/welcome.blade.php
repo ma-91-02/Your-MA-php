@@ -2,11 +2,13 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}" >
 @if (app()->getLocale() == 'ar')
 <?php
-$dir = 'style=direction:rtl;'
+$dir = 'style=direction:rtl;';
+$blog= '<li style="color: #fff;"><a href="https://your-ma.com/blog/">المدونة</a></li>'
 ?>
 @else
 <?php
-$dir='style=direction:ltr;'
+$dir='style=direction:ltr;';
+$blog='';
 ?>
 @endif
 
@@ -496,7 +498,7 @@ $dir='style=direction:ltr;'
       </a>
       <ul class="main-nav">
         <li style="color: #fff;"><a href="{{url('/')}}">{{__('messages.home')}}</a></li>
-        <li style="color: #fff;"><a href="{{url('/blog')}}">المدونة</a></li>
+        {{$blog}}
         <li style="color: #fff;"><a href="{{url('/#pricing')}}">{{__('messages.pricing')}}</a></li>
         <li style="color: #fff;"><a href="#features">{{__('messages.features')}}</a></li>
         <li>
