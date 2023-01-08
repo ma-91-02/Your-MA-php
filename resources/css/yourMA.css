@@ -18,8 +18,8 @@ html {
 body {
   font-family: 'Dosis', sans-serif !important;
   color: #004da5;
-  direction: rtl;
-  direction: ltr;
+  /* direction: rtl;
+  direction: ltr; */
 }
 a {
   text-decoration: none;
