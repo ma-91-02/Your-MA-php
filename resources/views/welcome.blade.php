@@ -3,7 +3,7 @@
 @if (app()->getLocale() == 'ar')
 <?php
 $dir = 'style=direction:rtl;';
-$blog= '<li style="color: #fff;"><a href="https://your-ma.com/blog/">المدونة</a></li>'
+$blog= "<li style='color: #fff;'><a href='https://your-ma.com/blog/'>المدونة</a></li>"
 ?>
 @else
 <?php
