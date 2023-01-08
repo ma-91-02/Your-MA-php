@@ -21,8 +21,8 @@ dir="ltr"
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.rtl.min.css" integrity="sha384-+qdLaIRZfNu4cVPK/PxJJEy0B0f3Ugv8i482AKY7gwXwhaCroABd086ybrVKTa0q" crossorigin="anonymous">
   <link rel="stylesheet" href="{{ asset('resources/css/normalize.css') }}" />
   <link rel="stylesheet" href="{{ asset('resources/css/yourMA.css') }}" />
-  <link rel="stylesheet" href="{{ asset('css/app.css') }}" />
-  <link rel="stylesheet" href="{{ asset('css/yourMA.css') }}" />
+  <!-- <link rel="stylesheet" href="{{ asset('css/app.css') }}" />
+  <link rel="stylesheet" href="{{ asset('css/yourMA.css') }}" /> -->
   <!-- Font Awesome -->
   <link rel="stylesheet" href="resources/css/all.min.css" />
   <!-- Fonts -->
@@ -420,7 +420,6 @@ dir="ltr"
         color: #6b7280;
         color: rgba(107, 114, 128, var(--tw-text-opacity))
       }
-    }
     }
   </style>
 
