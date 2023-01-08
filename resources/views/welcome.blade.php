@@ -432,7 +432,7 @@ dir="ltr"
   </style>
 </head>
 
-<body class="antialiased" {{$dir}}>
+<body class="antialiased" >
 
   <!-- Start this code for login for future -->
 
