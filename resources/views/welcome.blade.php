@@ -11,8 +11,7 @@ dir="ltr"
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Website & iPhone & Android Development Company
-        with creative solutions.">
+  <meta name="description" content="{{__(('messages.website_iphone_android'))}}">
   <title>{{__('messages.your')}}{{__('messages.MA')}}</title>
   <link rel="apple-touch-icon" href="resources/imgs/logo.png">
   <link rel="icon" href="resources/imgs/logo.png">
