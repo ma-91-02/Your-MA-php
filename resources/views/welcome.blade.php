@@ -19,6 +19,7 @@ dir="ltr"
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.rtl.min.css" integrity="sha384-+qdLaIRZfNu4cVPK/PxJJEy0B0f3Ugv8i482AKY7gwXwhaCroABd086ybrVKTa0q" crossorigin="anonymous">
   <link rel="stylesheet" href="{{ asset('resources/css/normalize.css') }}" />
+  <link rel="stylesheet" href="{{ asset('css/yourMA.css') }}" />
   <link rel="stylesheet" href="{{ asset('resources/css/yourMA.css') }}" />
   <!-- <link rel="stylesheet" href="{{ asset('css/app.css') }}" />
   <link rel="stylesheet" href="{{ asset('css/yourMA.css') }}" /> -->
@@ -499,7 +500,7 @@ dir="ltr"
         </li>
         @endif
 
-        <li style="color: #fff;"><a href="{{url('/#pricing')}}">{{__('messages.pricing')}}</a></li>
+        <!-- <li style="color: #fff;"><a href="{{url('/#pricing')}}">{{__('messages.pricing')}}</a></li> -->
         <li style="color: #fff;"><a href="#features">{{__('messages.features')}}</a></li>
         <li>
           <a style="color: #fff;" href="#">{{__('messages.otherLinks')}}</a>
@@ -702,7 +703,7 @@ dir="ltr"
   </div>
   <!-- End Events -->
   <!-- Start Pricing -->
-  <div class="pricing" id="pricing">
+  <!-- <div class="pricing" id="pricing">
     <div class="dots dots-up"></div>
     <div class="dots dots-down"></div>
     <h2 class="main-title">{{__('messages.pricing')}}</h2>
@@ -806,7 +807,7 @@ dir="ltr"
         <a href="{{url('/pricing#landingPage')}}">{{__('messages.more')}}</a>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- End Pricing -->
   <!-- Start Features -->
   <div class="features" id="features">

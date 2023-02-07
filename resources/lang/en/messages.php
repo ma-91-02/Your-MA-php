@@ -27,8 +27,7 @@ return [
         'requestDiscount'=>'Request A Discount',
     // End navbar
     // start slider
-        'website_iphone_android'=>'Website , iPhone & Android Development Company
-        with creative solutions ',
+        'website_iphone_android'=>'Get top-notch web development, mobile app creation, and digital marketing services from our experienced team. Contact us today to turn your dream into a reality.',
     // end slider
     // Start Events
         'days'=>'Days',
